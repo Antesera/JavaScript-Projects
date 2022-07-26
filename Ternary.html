@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+</head
+<body>
+<h1 style="color:green">Acadamy of learning</h1>
+    <h2>Nested Unordered List</h2>
+    <p>Acadamy of Learning courses list:</p>
+  
+    <ul>
+        <li>SWD</li>
+        <ul>
+            <li>Array</li>
+            <li>Linked List</li>
+            <li>stack</li>
+            <li>Queue</li>
+        </ul>
+		
+<script>  
+    function gfg() {  
+     //JavaScript to illustrate 
+    //Conditional operator 
+  
+    let PMarks = 40 
+    let result = (PMarks > 39)? 
+        "Pass":"Fail"; 
+  
+    document.write(result); 
+    }  
+    gfg();  
+</script>
+
+<h2>JavaScript Object Constructors</h2>
+
+<p id="demo"></p>
+
+<script>
+// Constructor function for Person objects
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+// Create 2 Person objects
+const myFather = new Person("John", "Doe", 50, "blue");
+const myMother = new Person("Sally", "Rally", 48, "green");
+
+// Add nationality to first object
+myFather.nationality = "English";
+
+// Display nationality 
+document.getElementById("demo").innerHTML =
+"My father is " + myFather.nationality; 
+</script>
+
+</body>
+</html>
