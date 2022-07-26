@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Name: <input type="text" id="myText" value="">
+<br/>
+<br/>
+Age: <input type="number" name="age">
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+
+function myFunction() {
+    var input = document.getElementsByTagName('input')[0].value;
+    var agenum = document.getElementsByTagName('input')[1].value;
+    var div = document.createElement('div');
+    div.style.border = '2px solid red';
+    div.style.padding = '10px';
+    div.style.display = 'block';
+    document.body.appendChild(div);
+    var output = 'Name: ' + input + '<br/>' + 'Age: ' + agenum;
+    div.innerHTML = output;
+    deleteButton(div);
+}
+
+function deleteButton(x) {
+    var del = document.createElement('button');
+    del.style.textDecoration = 'none';
+    del.innerHTML = 'Remove this person?';
+    del.style.color = 'white';
+    del.style.backgroundColor = 'blue';
+    document.body.appendChild(del);
+}
+
+
+</script>
+
+</body>
+</html>
