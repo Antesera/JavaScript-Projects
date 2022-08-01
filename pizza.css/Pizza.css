@@ -1,0 +1,71 @@
+//body {
+	background-color: blue;
+}
+h1 {
+	font-family: Helvetica;
+	color: white;
+	text-align: center;
+}
+h3 {
+	font-family: Arial;
+	color: snow;
+}
+
+h2 {
+	font-family: Helvetica;
+	color: white;
+	text-align: center;
+}
+
+div {
+	color: lightyellow;
+    font-family: Monospace;
+}
+
+#menuBG {
+	Width:400px;
+	height:470px;
+	margin:10px auto
+   }
+
+#frmenu {
+	Width:400px;
+	height:2000px;
+  }
+
+#totalprice {
+	Width:200px;
+	height:190px;
+	margin:0 auto
+	float:right;
+   }
+
+.left {
+	Width:200px;
+	height:200px;
+	float:left;
+    }
+.right {
+	Width:200px;
+	height:200px;
+	float:right;
+   }
+
+#ShowText {
+	Width:200px;
+	height:190px;
+	margin:0px auto
+	float:left;
+   }
+
+#cart {
+	top:0;margin:0px auto
+	Width:400px;
+	height:200px;
+    }
+
+#btnorder {
+	margin:10px 0px 0px 100px
+	Width:100px;
+	height:40px;
+    }
